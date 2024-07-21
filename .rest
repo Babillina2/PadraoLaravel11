@@ -1,0 +1,17 @@
+### cadastro de veiculos
+post http://localhost:8000/api/veiculos
+Content-Type: application/json
+Accept: application/json
+
+{
+    "ano":"2020",
+    "modelo":"uno"
+}
+
+### get veiculo
+
+delete http://localhost:8000/api/veiculos/2
+###
+get http://localhost:8000/api/veiculos
+Accept: application/json
+
